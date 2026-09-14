@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" width="100%" height="100%">
+  <defs>
+    <!-- Dark Cosmic Background Gradients -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaCore" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Node Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .primary-pill {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    .secondary-pill {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+  ]]></style>
+
+  <!-- Deep Cosmic Canvas -->
+  <rect width="1200" height="650" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="650" rx="16" fill="url(#nebulaCore)"/>
+
+  <!-- Starfield / Constellation Dots -->
+  <g fill="#94a3b8" opacity="0.3">
+    <circle cx="90" cy="80" r="1.5"/>
+    <circle cx="210" cy="140" r="1"/>
+    <circle cx="1080" cy="95" r="1.5"/>
+    <circle cx="980" cy="160" r="1"/>
+    <circle cx="1120" cy="520" r="1.2"/>
+    <circle cx="140" cy="540" r="1.2"/>
+    <circle cx="70" cy="320" r="1.5"/>
+    <circle cx="1130" cy="290" r="1"/>
+    <circle cx="580" cy="55" r="1.2"/>
+    <circle cx="640" cy="595" r="1.5"/>
+    <circle cx="380" cy="605" r="1"/>
+    <circle cx="820" cy="575" r="1.2"/>
+    <circle cx="430" cy="110" r="1.5"/>
+    <circle cx="770" cy="110" r="1.2"/>
+    <circle cx="280" cy="380" r="1"/>
+    <circle cx="920" cy="390" r="1.2"/>
+  </g>
+
+  <!-- ==================== TOP ROW & UPPER REGION ==================== -->
+  <!-- GitHub [90, 85] -->
+  <g transform="translate(90, 85)">
+    <rect width="90" height="30" rx="15" fill="url(#pillGrad)" stroke="#f8fafc" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#f8fafc"/>
+    <text x="53" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">GitHub</text>
+  </g>
+
+  <!-- Hadoop [360, 75] -->
+  <g transform="translate(360, 75)">
+    <rect width="95" height="30" rx="15" fill="url(#pillGrad)" stroke="#eab308" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#eab308"/>
+    <text x="56" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Hadoop</text>
+  </g>
+
+  <!-- Apache Spark (PRIMARY) [530, 65] -->
+  <g transform="translate(530, 65)">
+    <rect width="140" height="38" rx="19" fill="url(#pillGrad)" stroke="#f97316" stroke-width="1.8" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#f97316"/>
+    <text x="80" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">Apache Spark</text>
+  </g>
+
+  <!-- Hive [745, 75] -->
+  <g transform="translate(745, 75)">
+    <rect width="80" height="30" rx="15" fill="url(#pillGrad)" stroke="#fbbf24" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#fbbf24"/>
+    <text x="48" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Hive</text>
+  </g>
+
+  <!-- Git [1020, 85] -->
+  <g transform="translate(1020, 85)">
+    <rect width="70" height="30" rx="15" fill="url(#pillGrad)" stroke="#a855f7" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#a855f7"/>
+    <text x="44" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Git</text>
+  </g>
+
+  <!-- ==================== UPPER MID REGION ==================== -->
+  <!-- PyTorch (PRIMARY) [205, 150] -->
+  <g transform="translate(205, 150)">
+    <rect width="115" height="38" rx="19" fill="url(#pillGrad)" stroke="#ef4444" stroke-width="2" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#ef4444"/>
+    <text x="67" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">PyTorch</text>
+  </g>
+
+  <!-- Flask [385, 155] -->
+  <g transform="translate(385, 155)">
+    <rect width="80" height="30" rx="15" fill="url(#pillGrad)" stroke="#94a3b8" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#94a3b8"/>
+    <text x="48" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Flask</text>
+  </g>
+
+  <!-- TensorFlow (PRIMARY) [535, 150] -->
+  <g transform="translate(535, 150)">
+    <rect width="130" height="38" rx="19" fill="url(#pillGrad)" stroke="#ea580c" stroke-width="1.8" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#ea580c"/>
+    <text x="75" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">TensorFlow</text>
+  </g>
+
+  <!-- OpenCV [735, 155] -->
+  <g transform="translate(735, 155)">
+    <rect width="95" height="30" rx="15" fill="url(#pillGrad)" stroke="#34d399" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#34d399"/>
+    <text x="56" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">OpenCV</text>
+  </g>
+
+  <!-- Docker (PRIMARY) [880, 150] -->
+  <g transform="translate(880, 150)">
+    <rect width="105" height="38" rx="19" fill="url(#pillGrad)" stroke="#0ea5e9" stroke-width="1.8" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#0ea5e9"/>
+    <text x="62" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">Docker</text>
+  </g>
+
+  <!-- ==================== MID-UPPER SIDES ==================== -->
+  <!-- C++ [80, 215] -->
+  <g transform="translate(80, 215)">
+    <rect width="75" height="30" rx="15" fill="url(#pillGrad)" stroke="#3b82f6" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#3b82f6"/>
+    <text x="46" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">C++</text>
+  </g>
+
+  <!-- Java [1045, 215] -->
+  <g transform="translate(1045, 215)">
+    <rect width="80" height="30" rx="15" fill="url(#pillGrad)" stroke="#f43f5e" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#f43f5e"/>
+    <text x="48" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Java</text>
+  </g>
+
+  <!-- ==================== MID-LEVEL LEFT & RIGHT ==================== -->
+  <!-- React.js (PRIMARY) [315, 260] -->
+  <g transform="translate(315, 260)">
+    <rect width="110" height="38" rx="19" fill="url(#pillGrad)" stroke="#06b6d4" stroke-width="2" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#06b6d4"/>
+    <text x="65" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">React.js</text>
+  </g>
+
+  <!-- Python (PRIMARY) [775, 260] -->
+  <g transform="translate(775, 260)">
+    <rect width="110" height="38" rx="19" fill="url(#pillGrad)" stroke="#38bdf8" stroke-width="2" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#38bdf8"/>
+    <text x="65" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">Python</text>
+  </g>
+
+  <!-- JavaScript [120, 320] -->
+  <g transform="translate(120, 320)">
+    <rect width="105" height="30" rx="15" fill="url(#pillGrad)" stroke="#facc15" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#facc15"/>
+    <text x="61" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">JavaScript</text>
+  </g>
+
+  <!-- Express.js [975, 320] -->
+  <g transform="translate(975, 320)">
+    <rect width="105" height="30" rx="15" fill="url(#pillGrad)" stroke="#cbd5e1" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#cbd5e1"/>
+    <text x="61" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Express.js</text>
+  </g>
+
+  <!-- FastAPI (PRIMARY) [315, 370] -->
+  <g transform="translate(315, 370)">
+    <rect width="110" height="38" rx="19" fill="url(#pillGrad)" stroke="#10b981" stroke-width="2" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#10b981"/>
+    <text x="65" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">FastAPI</text>
+  </g>
+
+  <!-- Node.js (PRIMARY) [775, 370] -->
+  <g transform="translate(775, 370)">
+    <rect width="110" height="38" rx="19" fill="url(#pillGrad)" stroke="#22c55e" stroke-width="2" filter="url(#softGlow)"/>
+    <circle cx="18" cy="19" r="4.5" fill="#22c55e"/>
+    <text x="65" y="24" fill="#f8fafc" class="primary-pill" text-anchor="middle">Node.js</text>
+  </g>
+
+  <!-- ==================== LOWER & BOTTOM REGIONS ==================== -->
+  <!-- Scikit-learn [200, 450] -->
+  <g transform="translate(200, 450)">
+    <rect width="115" height="30" rx="15" fill="url(#pillGrad)" stroke="#38bdf8" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#38bdf8"/>
+    <text x="66" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Scikit-learn</text>
+  </g>
+
+  <!-- MongoDB [965, 430] -->
+  <g transform="translate(965, 430)">
+    <rect width="105" height="30" rx="15" fill="url(#pillGrad)" stroke="#22c55e" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#22c55e"/>
+    <text x="61" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">MongoDB</text>
+  </g>
+
+  <!-- MySQL [85, 480] -->
+  <g transform="translate(85, 480)">
+    <rect width="90" height="30" rx="15" fill="url(#pillGrad)" stroke="#0284c7" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#0284c7"/>
+    <text x="53" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">MySQL</text>
+  </g>
+
+  <!-- Postman [860, 485] -->
+  <g transform="translate(860, 485)">
+    <rect width="95" height="30" rx="15" fill="url(#pillGrad)" stroke="#ff6c37" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#ff6c37"/>
+    <text x="56" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">Postman</text>
+  </g>
+
+  <!-- PySpark [550, 500] -->
+  <g transform="translate(550, 500)">
+    <rect width="100" height="30" rx="15" fill="url(#pillGrad)" stroke="#fb923c" stroke-width="1.3" filter="url(#softGlow)"/>
+    <circle cx="15" cy="15" r="3.5" fill="#fb923c"/>
+    <text x="58" y="19" fill="#f8fafc" class="secondary-pill" text-anchor="middle">PySpark</text>
+  </g>
+
+  <!-- ==================== CENTRAL IDENTITY CARD [Exact Center: 600, 325] ==================== -->
+  <g>
+    <!-- Outer Glow Capsule -->
+    <rect x="475" y="245" width="250" height="160" rx="28" fill="#0f172a" stroke="#6366f1" stroke-width="2" filter="url(#softGlow)" opacity="0.95"/>
+    <rect x="483" y="253" width="234" height="144" rx="22" fill="#090d16" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <rect x="490" y="260" width="220" height="130" rx="18" fill="#0b0f19"/>
+
+    <!-- Central Typography -->
+    <g text-anchor="middle">
+      <text x="600" y="292" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">ENGINEERING UNIVERSE</text>
+      <text x="600" y="324" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" letter-spacing="0.8">SHIVANSH RAI</text>
+      <text x="600" y="350" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.6">SOFTWARE ENGINEER</text>
+      <text x="600" y="369" fill="#818cf8" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" letter-spacing="0.4">AI/ML • FULL-STACK • BACKEND</text>
+    </g>
+  </g>
+</svg>
