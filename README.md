@@ -44,17 +44,37 @@ I build practical machine learning systems, backend services, and full-stack app
 ### 🛠️ Languages & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,js,react,html,css" />
+  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" /></a>
+  <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" /></a>
+  <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" /></a>
+  <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" /></a>
 </p>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,tensorflow,pytorch,sklearn,opencv" />
+  <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" /></a>
+  <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" /></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" /></a>
+  <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" /></a>
+  <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" /></a>
+  <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" /></a>
+  <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" /></a>
+  <a href="https://opencv.org/"><img src="https://skillicons.dev/icons?i=opencv" /></a>
 </p>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=spark,hadoop,mysql,mongodb,docker,git,github,postman,nginx" />
+  <a href="https://spark.apache.org/"><img src="https://skillicons.dev/icons?i=spark" /></a>
+  <a href="https://hadoop.apache.org/"><img src="https://skillicons.dev/icons?i=hadoop" /></a>
+  <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" /></a>
+  <a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" /></a>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" /></a>
+  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" /></a>
+  <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" /></a>
+  <a href="https://nginx.org/"><img src="https://skillicons.dev/icons?i=nginx" /></a>
 </p>
-
 ---
 
 ### 🔨 Featured Work
